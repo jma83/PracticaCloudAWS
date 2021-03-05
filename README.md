@@ -7,7 +7,7 @@ packer build -var 'aws_access_key=NUESTRA_ACCESS_KEY' -var 'aws_secret_key=NUEST
 Permite crearnos una imagen con nuestra aplicación Play: API REST de Recetas</br></br>
 Requiere de 3 ficheros durante el proceso: </br>
 	- recetas.service : Fichero de servicio, que permite crear la ejecución de nuestra aplicación como servicio en la instancia linux creada.</br>
-	- start.sh : Fichero de configuración y arranque de la aplicación.</br>
+	- start.sh : Fichero de configuración y arranque de la aplicación. Falta añadir dirección de la base de datos y credenciales. </br>
 	- practica-play-dist/recetas.zip :  Fichero comprimido con nuestra aplicación de recetas</br>
 	
 # COMANDOS EJECUCIÓN TERRAFORM ##
