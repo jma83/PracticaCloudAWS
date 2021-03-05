@@ -1,0 +1,12 @@
+[Unit]
+Description="Recetas Application"
+
+[Service]
+WorkingDirectory=/opt/recetas
+ExecStart=/opt/recetas/start.sh
+ExecStop=/bin/kill -TERM $MAINPID
+Type=simple
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
