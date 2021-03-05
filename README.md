@@ -1,8 +1,8 @@
-## COMANDO EJECUCIÓN PACKER ##
+# COMANDO EJECUCIÓN PACKER #
 
 packer build -var 'aws_access_key=NUESTRA_ACCESS_KEY' -var 'aws_secret_key=NUESTRA_SECRET_KEY' recetas.json
 
-# Descripción Funcional #
+## Descripción Funcional ##
 
 Permite crearnos una imagen con nuestra aplicación Play: API REST de Recetas
 Requiere de 3 ficheros durante el proceso: 
@@ -10,7 +10,7 @@ Requiere de 3 ficheros durante el proceso:
 	- start.sh : Fichero de configuración y arranque de la aplicación.
 	- practica-play-dist/recetas.zip :  Fichero comprimido con nuestra aplicación de recetas
 	
-## COMANDOS EJECUCIÓN TERRAFORM ##
+# COMANDOS EJECUCIÓN TERRAFORM ##
 
 Nos situamos en el directorio de el fichero main.tf y lanzamos:
 
@@ -20,7 +20,7 @@ terraform init
 terraform plan
 terraform apply
 
-# Descripción Funcional #
+## Descripción Funcional ##
 
 Permite: 
 	- Crearnos un grupo de auto escalado y su launch configuration asociado
