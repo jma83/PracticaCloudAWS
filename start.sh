@@ -1,8 +1,8 @@
 #!/bin/sh
         export JDBC_DATABASE_DRIVER=com.mysql.cj.jdbc.Driver
-        export JDBC_DATABASE_URL=jdbc:mysql://mimo-play-recetas.cdxzquuisjkj.eu-central-1.rds.amazonaws.com:3306/mimo_play_recetas
-        export JDBC_DATABASE_USERNAME=admin
-        export JDBC_DATABASE_PASSWORD=admin123
+        export JDBC_DATABASE_URL=
+        export JDBC_DATABASE_USERNAME=
+        export JDBC_DATABASE_PASSWORD=
 
 
         ./bin/play-practica-final \
